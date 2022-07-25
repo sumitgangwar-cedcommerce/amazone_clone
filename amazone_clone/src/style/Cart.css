@@ -1,0 +1,80 @@
+#cart-page{
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-height: 60vh;
+}
+#item_table{
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 50%;
+    padding: 1vw;
+}
+#item_table td , th , tr{
+    width: 10%;
+    font-size:small;
+    border-collapse: collapse;
+    
+}
+
+#item_table img{
+    width: 50%;
+    height: 2%;
+}
+#item_table button{
+    border:none;
+}
+#clear{
+    background: linear-gradient(177deg, rgba(246,218,152,1) 0%, rgba(242,204,110,1) 35%, rgba(211,170,67,1) 100%);
+    text-align: center;
+    border-color:#A88734;
+    width: 100%;
+    padding:1vw;
+    border-radius: 5px;
+    font-weight: 600;
+}
+#bill{
+    max-height: 20vh;
+    text-align: left;
+    padding:2vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 30%;
+}
+#bill button{
+    background: linear-gradient(177deg, rgba(246,218,152,1) 0%, rgba(242,204,110,1) 35%, rgba(211,170,67,1) 100%);
+    text-align: center;
+    border-color:#A88734;
+    width: 100%;
+    padding:1vw;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.del{
+    color:red;
+    background: transparent;
+}
+td{
+    text-align:left;
+    width: 10%;
+}
+.large{
+    width: 80%;
+}
+.large span{
+    float:right;
+}
+#cart-page h1{
+    width: 100%;
+}
+
+@media screen and (max-width:600px){
+    #item_table{
+        margin:3vh;
+        width:90%;
+    }
+    #bill{
+        margin:3vh;
+        width:70%;
+    }
+}
